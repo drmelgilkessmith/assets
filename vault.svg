@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Vault">
+  <title>Vault</title>
+  <defs>
+    <linearGradient id="vaultTile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c2185b"/>
+      <stop offset="1" stop-color="#993556"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="512" height="512" rx="112" fill="url(#vaultTile)"/>
+
+  <g transform="translate(256 277) scale(1.08) translate(-256 -277)">
+  <!-- shackle -->
+  <path fill="#fce4ec" d="M154 268 V236 A102 102 0 0 1 358 236 V268 H314 V236 A58 58 0 0 0 198 236 V268 Z"/>
+
+  <!-- body with keyhole cut out -->
+  <path fill="#fce4ec" fill-rule="evenodd" d="M166 250 H346 A30 30 0 0 1 376 280 V390 A30 30 0 0 1 346 420 H166 A30 30 0 0 1 136 390 V280 A30 30 0 0 1 166 250 Z
+           M224 322 A32 32 0 1 0 288 322 A32 32 0 1 0 224 322 Z
+           M240 338 H272 L281 384 H231 Z"/>
+  </g>
+</svg>
